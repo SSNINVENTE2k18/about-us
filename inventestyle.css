@@ -1,0 +1,72 @@
+﻿.aboutus h1{
+	text-align : center;
+	font-weight: 30;
+	color : black;
+	font-size: 73px;
+	padding: 0;
+	border: 0;
+	margin-bottom: 0;
+}
+/*.aboutus .line{
+	width:50%; 
+	height: 1px; 
+	background: #fff; 
+	padding: 0; 
+	margin-top: 1px;
+}*/
+.aboutus .caption{
+	/*display: inline-block;*/
+	width: 200px; 
+	font-size: 130%; 
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+}
+.aboutus .container{
+	display: inline-block;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	width: 350px;
+	margin-left: 80px;
+	margin-right: 50px;
+	margin-top: 30px;
+	text-align: justify;
+}
+.aboutus .image{
+  opacity: 1;
+  display: inline;
+  padding-bottom: 0.5em;
+  border-radius: 100%;
+}
+.aboutus .text{
+	position: absolute;
+	top: 285px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size : 17px;
+	color: black;
+}
+.aboutus .pos{
+	color: lightgrey;
+}
+/*.aboutus #aboutInvente{
+	background-color: grey;
+	color: orange;
+	border-radius: 10px;
+	margin-left: 80px;
+	margin-right: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.aboutus h2{
+	text-align: center;
+	margin-top: 15px;
+}
+.aboutus #aboutInvente p{
+	font-size: 17px;
+}*/
