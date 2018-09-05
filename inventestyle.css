@@ -1,11 +1,8 @@
 ﻿.aboutus h1{
-	text-align : center;
+	text-align: center;
 	font-weight: 30;
 	color : black;
 	font-size: 73px;
-	padding: 0;
-	border: 0;
-	margin-bottom: 0;
 }
 /*.aboutus .line{
 	width:50%; 
@@ -16,33 +13,39 @@
 }*/
 .aboutus .caption{
 	/*display: inline-block;*/
-	width: 200px; 
-	font-size: 130%; 
+	width: 250px; 
 	text-align: center;
 	margin-top: 30px;
 	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
 }
 .aboutus .container{
-	display: inline-block;
 	justify-content: center;
 	overflow: hidden;
 	position: relative;
 	height: 100%;
-	width: 350px;
-	margin-left: 80px;
+	max-width: 960px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*margin-left: 80px;
 	margin-right: 50px;
-	margin-top: 30px;
+	margin-top: 30px;*/
 	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
 }
 .aboutus .image{
   opacity: 1;
   display: inline;
   padding-bottom: 0.5em;
   border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .aboutus .text{
 	position: absolute;
-	top: 285px;
+	top: 325px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -50,7 +53,15 @@
 	color: black;
 }
 .aboutus .pos{
-	color: lightgrey;
+	font-size: 24px;
+	color: grey;
+	margin-top: -8px;
+	padding: 0px, 0px, 0px, 0px;
+}
+.aboutus .name{
+	font-size: 24px;
+	margin: 0px, 0px, 0px, 0px;
+	padding: 0px, 0px, 0px, 0px;
 }
 /*.aboutus #aboutInvente{
 	background-color: grey;
